@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="/bootstrap-5.2.0-beta1-dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/makiLogo.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="16x16" href="./img/makiLogo.png">
+    <link rel="stylesheet" href="style.css" />
+    <title>Restaurants</title>
+</head>
+<body>
+    <!-- Container -->
+    <div class="bg-dark bg-gradient">   
+        <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark pl-3 pr-3">
+    
+            <!-- Logo Navbar -->
+            <a href="index.html" class="navbar-brand"><img src="./img/makiLogo.png" alt="logo" width="30" height="40" class="d-inline-block align-text-top">
+            </a>
+            <!-- Logo Navbar x-->
+
+            <!-- Hamburger Menu and Links -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle Navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <div class="navbar-nav ml-md-auto">
+                    <div>
+                        <a class="nav-item nav-link" href="menu.html"><img src="./img/poulpe.png"> Menu</a>
+                    </div>
+                    <div>
+                        <a class="nav-item nav-link" href="gallery.php"><img src="./img/poulpe.png"> Gallery</a>
+                    </div>
+                    <div>
+                        <a class="nav-item nav-link" href="contact.html"><img src="./img/poulpe.png"> Contact</a>
+                    </div>
+                    <div>
+                        <a class="nav-item nav-link" href="Locations.html"><img src="./img/poulpe.png"> Locations</a>
+                    </div>
+                </div>
+        
+            </div>
+            <!-- Hamburger Menu and Links x-->
+        </nav> 
+        <!-- Navbar x-->
+
+        <!-- Grid Hours -->
+        <div class="row row-cols-12 g-4 m-2 pt-5 pb-5 text-light text-center">
+            <div class="col">
+                <iframe src="https://www.google.com/maps/d/embed?mid=1fgwS6T3XT_E6Ercky4w-gOYnTQhODbL-&ehbc=2E312F" width="100%" height="300vh"></iframe>
+
+                <div class="card-body">
+                    <h5 class="card-title "><u>Opening Hours</u></h5>
+                    <p class="card-text ><i class="bi bi-calendar-day"></i>  Mo - Thu : 10AM - 21PM</p>
+                    <p class="card-text"><i class="bi bi-calendar-day"></i>  Fri - Sa : 11AM - 1AM</p>
+                    <p class="card-text"><mark class="text-danger">Su : Closed</mark></p>
+                </div>
+            </div>
+        </div>
+        <!-- Grid Hours x-->
+    </div>
+    <!-- Container x-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
