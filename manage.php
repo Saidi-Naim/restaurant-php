@@ -22,7 +22,7 @@
       </button>
       <button class="w-100 <?php if (isset($_POST["ongletGly"])) 
         {echo "bg-danger text-white"; } ?> py-2" name="ongletGly" value="msg">Gallery
-      </button>;
+      </button>
       </form>
 <?php
 
@@ -188,8 +188,8 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td>$date</td>
-                        <td>$name</td>
+                        <td>'.$date.'</td>
+                        <td>'.$name.'</td>
                         <td><img width="20%" src="./img/'.$name.'/></td>
                         <td>'.$size.' Ko</td>
                         <td><button class="btn btn-danger"><a class="text-light" href="delete.php?deleteid2='.$id2.'">Delete</a></button></td>
